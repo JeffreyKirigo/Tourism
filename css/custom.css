@@ -72,7 +72,9 @@ nav a:hover {
 
 @media screen and (min-width: 480px) {
 	.mySlides {
+		display: none;
 		width: 100%;
 		height: 200px;
+		opacity: 0.9;
 	}
 }
