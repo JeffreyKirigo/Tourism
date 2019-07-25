@@ -1,12 +1,13 @@
 body {
 	padding-top: 70px;
-	background-image: url("../images/a2-1280-960.jpg");
+	background-color : #5C7F46;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .overall {
-	background-color: rgba(222, 184, 135, 0.493);
+	background-color: #31541C;
+	border-radius: 15px;
 }
 
 .mySlides {
@@ -24,7 +25,7 @@ body {
 }
 
 nav {
-	background-color: rgb(73, 39, 39);
+	background-color: #C08552;
 	border-radius: 10px;
 }
 
@@ -63,6 +64,7 @@ nav a:hover {
 
 .jumbotron {
 	background-color: inherit;
+
 }
 
 .gallery .img {
@@ -70,11 +72,21 @@ nav a:hover {
 	height: auto;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 300px) {
 	.mySlides {
 		display: none;
 		width: 100%;
-		height: 200px;
+		height: 500px;
 		opacity: 0.9;
 	}
+} */
+img {
+  transition: transform .6s; /* Animation */
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+}
+
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

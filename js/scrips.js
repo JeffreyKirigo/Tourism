@@ -21,4 +21,12 @@ $(document).ready(function() {
 		// 		document.getElementById('popup').style.display = 'none';
 		// 	}
 		// );
+		$(".1").hover(function () {
+				// over
+							
+			}, function () {
+				// out
+				
+			}
+		);
 });
