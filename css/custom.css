@@ -1,12 +1,13 @@
 body {
 	padding-top: 70px;
-	background-color : #5C7F46;
+	background-image: url("../images/photo-1462823985959-022de68638a2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .overall {
 	background-color: #31541C;
+	
 	border-radius: 15px;
 }
 
@@ -25,13 +26,15 @@ body {
 }
 
 nav {
-	background-color: #C08552;
+	position: fixed;
+	background-color: #31541C;
 	border-radius: 10px;
 }
 
 nav a {
-	color: rgb(8, 107, 8);
+	color: goldenrod;
 	text-emphasis: overline;
+	
 }
 
 nav a:hover {
@@ -43,7 +46,7 @@ nav a:hover {
 
 .headings {
 	text-emphasis: bold;
-	color: rgb(73, 39, 39);
+	color: #C08552;
 }
 
 .slideShow #popup {
@@ -67,26 +70,20 @@ nav a:hover {
 
 }
 
-.gallery .img {
+.gallery {
 	max-width: 100%;
 	height: auto;
 }
 
-/* @media screen and (min-width: 300px) {
-	.mySlides {
-		display: none;
-		width: 100%;
-		height: 500px;
-		opacity: 0.9;
-	}
-} */
-img {
+
+.gallery img {
   transition: transform .6s; /* Animation */
   width: inherit;
   height: inherit;
   margin: 0 auto;
 }
 
-img:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.gallery img:hover {
+	transform: scale(1.125); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	border-radius: 10px;
 }
